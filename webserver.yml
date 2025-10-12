@@ -1,6 +1,6 @@
 ---
 - name: install httpd
-  hosts: all,!serverd
+  hosts: all
   become: true
   tasks:
     - name: install httpd
