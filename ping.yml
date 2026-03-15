@@ -6,3 +6,6 @@
   tasks:
     - name: ping mod 
       ping:
+    - name: print hostname
+      debug:
+        var: ansible_hostname
